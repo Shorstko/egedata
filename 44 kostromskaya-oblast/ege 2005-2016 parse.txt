@@ -1,0 +1,2 @@
+﻿https://www.ege-kostroma.ru/stat/home/?year=16&wave=&cl=&ate=&oo=&days=
+парсинг перебором
