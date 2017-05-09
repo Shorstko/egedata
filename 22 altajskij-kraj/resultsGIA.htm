@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Сервис просмотра результатов участников ЕГЭ и ОГЭ: форма поиска</title>
+        <link type="text/css" rel="stylesheet" href="/resultsGIA/css/login.css">
+        <script src="/resultsGIA/js/jquery.js" type="text/javascript"></script>
+        <script src="/resultsGIA/js/login.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="headbox">
+                <div id="lhbox">
+                    <div class="blMrContainer fleft">&nbsp;</div>
+                    <div id="lhwbox" class="fleft">&nbsp;</div>
+                </div>
+                <div id="chbox">
+                    <div id="rhbox">
+                        <div class="blMrContainer fright">&nbsp;</div>
+                    </div>
+                    <div id="hintro">Просмотр результатов экзамена в форме ЕГЭ и ОГЭ &ndash; Алтайский край</div>
+                    <div id="htitle">Сведения носят ознакомительный характер</div>
+                    <div id="hnote">Результаты есть ТОЛЬКО для участников экзаменов  2016 года</div>
+                </div>
+            </div>
+            <div id="contentbox">
+                <div id="cintro">
+                    
+                    
+                        Укажите свои ФИО и номер документа, прочтите
+                        <a href="#" onclick="window.open('/resultsGIA/help/agreement.html', 'egeResultAgreement', 'statusbar=no,scrollbars=yes,location=no,menubar=no,width=600,height=500,top=100,left=50'); return false;">"Условия использования сервиса"</a>,
+                        подтвердите свое согласие с условиями и нажмите кнопку "Показать результаты"
+                        
+                </div>
+                <form action="SearchResult.action" method="post">
+                <div id="authbox">
+                    <div class="abr">
+                        <label for="lname">Фамилия</label>
+                        <input type="text" name="lname" id="lname" value="">
+                    </div>
+                    <div class="abr">
+                        <label for="fname">Имя</label>
+                        <input type="text" name="fname" id="fname" value="">
+                    </div>
+                    <div class="abr">
+                        <label for="mname">Отчество</label> 
+                        <input type="text" name="mname" id="mname" value="">
+                    </div>
+                </div>
+                <div id="passportbox">
+                    <div id="pbi">Документ</div>
+                    <div class="pbr">
+                        <label for="series">Серия</label> 
+                        <input type="text" name="docseries" id="series" value="">
+                    </div>
+                    <div class="pbr">
+                        <label for="number">Номер</label> 
+                        <input type="text" name="docnumber" id="number" value="">
+                    </div>
+                </div>
+                <div id="btnbox">
+                    <div id="license">
+                        <input id="chkacceptrule" type="checkbox" name="license" onchange="this.form.btsbmt.disabled=!this.checked" value="yes">
+                        <label id="lbacceptrule" for="license">Я согласен(-сна) с <a href="#" onclick="window.open('/resultsGIA/help/agreement.html', 'egeResultAgreement', 'statusbar=no,scrollbars=yes,location=no,menubar=no,width=600,height=500,top=100,left=50'); return false;">условиями использования сервиса</a></label>
+                    </div>
+                    <div id="sbmt">
+                        <input id="btsbmt" type="submit" value="Показать результаты" disabled="1">
+                    </div>
+                </div>
+                </form>
+            </div>
+            
+            
+            
+        </div>
+    </body>
+</html>
