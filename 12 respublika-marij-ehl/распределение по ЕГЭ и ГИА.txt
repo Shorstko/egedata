@@ -1,0 +1,2 @@
+http://giareports.citoko.ru/report/raspred_test_bal?type=0&num=1
+парсить визуализацию. 2014-2016
