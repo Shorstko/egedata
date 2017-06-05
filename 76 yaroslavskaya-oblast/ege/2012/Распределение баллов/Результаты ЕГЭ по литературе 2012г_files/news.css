@@ -1,0 +1,218 @@
+﻿.news {
+	font-size: 12px;
+	margin-right: 5px;
+}
+.news h2.title {
+	background:transparent url(/_layouts/images/UmSoft.YR/marker_black_2.gif) no-repeat scroll left center;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+}
+.news h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+.one-news .news-image {
+	float: left;
+	display: block;
+	padding: 0 10px 5px 0;
+	text-align: center;
+}
+.one-news .keys {
+	font-size: 11px;
+}
+.one-news .keys span {
+	color: #949494;
+}
+.one-news .keys a {
+	color: #115682;
+}
+.one-news .news-body a{
+	color:navy;
+}
+.news hr {
+	border-color: #cccccc;
+}
+
+.one-news .more_links {
+	margin-top: 20px;
+	width: 100%;
+	text-align: right;
+}
+.one-news .more_links td {
+	float: right;
+	display: block;
+	padding: 10px 20px;
+	border-right: 1px solid #afafaf;
+}
+.one-news .more_links td.last {
+	border-right: 0px solid #afafaf;
+}
+.one-news .just_date {
+	margin: 10px 0;
+	clear: both;
+	font-size: 11px;
+}
+.one-news .just_date span {
+	color: #949494;
+}
+.one-news .breadcrumbs {
+	border-top: 2px solid #adadad;
+	padding: 10px;
+	font-size: 11px;
+}
+.one-news .breadcrumbs a {
+	color: #115682;
+	text-decoration: underline;
+}
+.one-news .breadcrumbs a:hover {
+	text-decoration: none;
+}
+
+.right_column {
+	padding-top: 5px;
+	font-size: 11px;
+	float: left;
+	width: 210px;
+}
+.right_column .yellow_title {
+	background-color: #ffe99e;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 11px;
+	margin-bottom: 3px;
+}
+.right_column .yellow_title img {
+	float: left;
+	margin-right: 10px;
+}
+
+.subscribe_right {
+	display: block;
+	background-color: #f6f6f6;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.right_sub_form {
+
+}
+.right_sub_form .title {
+	font-size: 11px;
+	padding: 10px 0 0 10px;
+}
+.right_sub_form input {
+	color: #b2b2b2;
+	width: 185px;
+	font-size: 10px;
+	margin: 5px 0 0 10px;
+}
+.right_sub_form a.submit {
+	1display: block;
+	1float: right;
+	margin: 7px 15px 0 0;
+	color: #115680;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding-right: 15px;
+	background: url(/_layouts/images/UmSoft.YR/search_marker_1.gif) right center no-repeat;
+}
+.right_sub_form a.submit:hover {
+	text-decoration: none;
+}
+
+.translation {
+	margin-bottom: 10px;
+}
+.translation .tr-list {
+	background: #b0b0b0 url(/_layouts/images/UmSoft.YR/tr-list-bg.gif) left top repeat-x;
+	padding: 10px;
+}
+.translation .tr-list a {
+	margin: 3px 0;
+	background: url(/_layouts/images/UmSoft.YR/tr-list-marker.gif) 5px center no-repeat;
+	display: block;
+	padding-left: 15px;
+	color: white;
+}
+.translation .tr-list a:hover {
+	text-decoration: none;
+}
+.translation .tr-item {
+	background: url(/_layouts/images/UmSoft.YR/tr-bg.gif) left top repeat-x;
+	height: 31px;
+	font-size: 12px;
+}
+.translation .tr-item a {
+	padding-left: 15px;
+	background: url(/_layouts/images/UmSoft.YR/dot.gif) 5px center no-repeat;
+	color: #125685;
+}
+.translation .tr-item a:hover {
+	text-decoration: none;
+}
+.translation .tr-item div {
+	padding: 8px;
+	background: url(/_layouts/images/UmSoft.YR/tr-not-expanded.gif) right center no-repeat;
+}
+.translation .tr-item div.expanded {
+	background: url(/_layouts/images/UmSoft.YR/tr-expanded.gif) right center no-repeat;
+}
+.translation .tr1-item {
+	background: url(/_layouts/images/UmSoft.YR/tr-bg.gif) left center /*repeat-x*/;
+	/*height: 31px; */
+	font-size: 12px;
+}
+.translation .tr1-item a {
+	padding-left: 15px;
+	background: url(/_layouts/images/UmSoft.YR/dot.gif) 5px center no-repeat;
+	color: #125685;
+}
+.translation .tr1-item a:hover {
+	text-decoration: none;
+}
+.translation .tr1-item div {
+	padding: 8px;
+	background: url(/_layouts/images/UmSoft.YR/tr-not-expanded.gif) right center no-repeat;
+}
+.translation .tr1-item div.expanded {
+	background: url(/_layouts/images/UmSoft.YR/tr-expanded.gif) right center no-repeat;
+}
+
+
+.other_news {
+	background-color: #f6f6f6;
+	width: 210px;
+}
+.other_news_item {
+	margin: 5px 5px 10px 15px;
+	width: 180px;
+}
+.other_news_item .date {
+	color: #949494;
+	margin-bottom: 3px;
+	font-size: 11px;
+}
+.other_news_item .text {
+	font-size: 11px;
+}
+.other_news_item .text a {
+	text-decoration: underline;
+}
+.other_news_item .text a:hover {
+	text-decoration: none;
+}
+
+.text {
+  font-size: 12px;				
+}
+
+.news_title {
+   font-size: 14px;				
+}
+
+.textlink {
+  font-size: 12px;	
+  color:navy;			
+}
+
