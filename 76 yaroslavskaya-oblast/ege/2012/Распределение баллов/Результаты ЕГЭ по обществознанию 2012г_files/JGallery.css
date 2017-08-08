@@ -1,0 +1,253 @@
+.JGallery_wrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.JGallery_mImageWrapper {
+	position: relative;
+}
+
+.JGallery_mediumImageArrowsLayer
+{
+	position: absolute;
+	left: 0px;
+	top; 0px;
+	width: 100%;
+}
+
+.JGallery_imagesCount
+{
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	height: 20px;
+	width: 50px;
+	color: white;
+	background-color: #303030;	
+	z-index: 1200;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+	text-align: center;
+}
+
+.JGallery_mediumImageLeftArrow {
+	position: absolute;
+	width: 30px;
+	background-image: url(images/arrow_left.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+	cursor: pointer;
+	z-index: 1100;
+}
+
+.JGallery_mediumImageRightArrow {
+	position: absolute;
+	width: 30px;
+	background-image: url(images/arrow_right.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+	cursor: pointer;
+	z-index: 1100;
+}
+
+.JGallery_smallImages {
+	float: left;
+}
+
+.JGallery_smallImagesListWrapper {
+	overflow: hidden;
+	position: relative;
+}
+
+.JGallery_leftArrow {
+	background-image: url(images/arrow_left.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 30px;
+	float: left;
+	cursor: pointer;
+}
+
+.JGallery_rightArrow {
+	background-image: url(images/arrow_right.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 30px;
+	float: left;
+	cursor: pointer;
+}
+
+
+.JGallery_smallImagesSlidebar{
+	background-image: url('images/slider.png');
+	height: 10px;
+	background-repeat: repeat-x;
+	background-position: 0px 0px; 
+	position: relative;
+	margin: 10px 7px 0px 7px;
+}
+
+.JGallery_smallImagesSlidebarHandle {
+	background-image: url('images/sliderHandle.png');
+	width: 20px;
+	height: 10px;
+	background-position: 0px -3px;
+	position: absolute;
+	margin-left: -10px;
+}
+
+.JGallery_smallImageBack {
+	float: left;
+}
+
+.JGallery_smallImageBack_odd{
+	float: left;
+}
+
+.JGallery_smallImagesSpaceBack {
+	width: 7px;
+	height: 1px;
+	float: left;
+}
+
+.JGallery_smallImageBack img {
+	position: relative;
+}
+
+.JGallery_smallImageBack_odd img {
+	position: relative;
+}
+
+.JGallery_mediumImageBack {
+}
+
+.JGallery_mediumImageBack  img{
+	position: relative;
+}
+
+.JGallery_mImageTitle {
+	text-align: center;
+	height: 40px;
+	font-family: Tahoma;
+	font-size: 11px;
+	overflow: hidden;
+	position: relative;	
+}
+
+
+.JGallery_imageBack {
+	background-color: #ffffff;
+
+	top: 0px;
+	left: 0px;	
+}
+
+.JGallery_popupImage {
+	margin: 7px 7px 0px 7px;
+	z-index: 1900;	
+	top: 0px;
+	left: 0px;
+}
+
+.JGallery_popupTitle {
+	text-align: center;
+	height: 40px;
+	font-family: Tahoma;
+	font-size: 11px;
+	overflow: hidden;
+	position: relative;		
+}
+
+.JGallery_download {
+	background-image: url('images/download.png');
+	position: absolute;
+	top: 0px;
+	left: -28px;
+	z-index: 2100;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;	
+}
+
+.JGallery_close {
+	background-image: url('images/close.png');
+	position: absolute;
+	top: 0px;
+	left: -28px;
+	z-index: 2100;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;
+}
+
+
+.JGallery_largeImageLeftArrow {
+	position: absolute;	
+	background-image: url('images/largeImage_arrow_left.png');
+	z-index: 2100;
+	width: 28px;
+	height: 28px;	
+	cursor: pointer;
+}
+
+.JGallery_largeImageRightArrow {
+	position: absolute;	
+	background-image: url('images/largeImage_arrow_right.png');
+	z-index: 2100;
+	width: 28px;
+	height: 28px;
+	cursor: pointer;	
+}
+
+.JGallery_largeImageLeftPanel {
+	position: absolute;
+	z-index: 2100;
+	background: #ffffff;
+	opacity: 0.0;
+	filter: alpha(opacity=0);	
+	background-image: url(images/largeImagePanelLeftArrow.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+	
+}
+
+.JGallery_largeImageRightPanel {
+	position: absolute;
+	z-index: 2100;
+	background: #ffffff;
+	opacity: 0.0;
+	filter: alpha(opacity=0);
+	background-image: url(images/largeImagePanelRightArrow.png);
+	background-position: center;
+	background-repeat: no-repeat;	
+	
+}
+
+#JGallery_overlay {
+	background-color: #000000;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	visibility: hidden;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	z-index: 1900;
+}
+
+#JGallery_popup {
+	background-color: #ffffff;
+	position: fixed;
+	visibility: hidden;
+	z-index: 2000;
+}
+
+.JGallery_wait {
+	position: absolute;
+	z-index: 3000;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+	visibility: hidden;
+}

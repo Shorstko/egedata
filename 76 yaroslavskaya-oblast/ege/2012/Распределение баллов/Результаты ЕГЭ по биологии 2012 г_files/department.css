@@ -1,0 +1,264 @@
+﻿h2.title {
+	background:transparent url(/_layouts/images/UmSoft.YR/marker_black_2.gif) no-repeat scroll left center;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:10px;
+}
+
+.menu {
+    margin: 0 0 0 0;			
+}
+
+.menu-gub {
+	height: 28px;
+	background: url(/_layouts/images/UmSoft.YR/menu-gub.gif) left top repeat-x;
+    margin-top: 3px;
+	margin-bottom: 5px;
+}
+.menu-gub ul {
+	display: block;
+	margin: 0;
+	padding-left: 0;
+	text-align: left;
+}
+.menu-gub ul li {
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 20px 0 30px;
+	border-left: 2px solid white;
+	height: 28px;
+	background: url(/_layouts/images/UmSoft.YR/menu-gub-marker.gif) 15px center no-repeat;
+}
+
+.menu-gub1 {
+	height: 28px;
+	background: url(/_layouts/images/UmSoft.YR/menu-gub.gif) left top repeat-x;
+    margin-top: 3px;
+	margin-bottom: 5px;
+}
+.menu-gub1 ul {
+	display: block;
+	margin: 0;
+	padding-left: 0;
+	text-align: left;
+}
+.menu-gub1 ul li {
+	display: block;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 10px 0 15px;
+	border-left: 2px solid white;
+	height: 28px;
+	background: url(/_layouts/images/UmSoft.YR/menu-gub-marker.gif) 10px center no-repeat;
+}
+
+
+/* Question */
+.question {
+	margin: 5px;
+	border: 1px solid #bcbcbc;
+	background: url(/_layouts/images/UmSoft.YR/gub-question-bg.gif) left bottom repeat-x;
+}
+.question div.title {
+	height: 31px;
+	background: url(/_layouts/images/UmSoft.YR/question-bg-1.gif) left top repeat-x;
+}
+.question div.title div {
+	height: 31px;
+	background: url(/_layouts/images/UmSoft.YR/question-bg-2.gif) right top no-repeat;    
+}
+.question div.title h2 {
+	margin: 0;
+	line-height: 31px;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 20px;
+	background: url(/_layouts/images/UmSoft.YR/question-bg-3.gif) 10px center no-repeat;
+}
+
+/* Events */
+.events_adv {
+  padding: 5px 0 0 0;
+}
+.events_adv .ttl {
+	background-color: #e0e0e0;
+	height: 31px;
+}
+.events_adv .ttl .text {
+	float: left;
+	padding-top: 5px;
+	font-size:14px;
+}
+
+.events_adv .ttl .text h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding-left: 30px;
+	background: url(/_layouts/images/UmSoft.YR/calendar_adv_bg.gif) 15px center no-repeat;
+}
+
+.events_adv .ttl .controls {
+	width: 200px;
+	float: right;
+	padding-top: 5px;
+	font-size: 11px;
+}
+.event-list {
+	margin-botom: 5px;
+}
+.event-list .event-item {
+	margin-top: 2px;
+	background-color: #f6f6f6;
+	padding: 10px 20px;
+	font-size: 11px;
+}
+.event-list .event-item .date {
+	color: #5b5b5b;
+	margin-bottom: 0;
+	margin-top: 14px;
+}
+.event-list .event-item .text a {
+	color: #115680;
+	text-decoration: underline;
+}
+.event-list .event-item .text a:hover {
+	text-decoration: none;
+}
+
+
+.right_column .yellow_title {
+	background-color:#FFE99E;
+	font-size:12px;
+	font-weight:bold;
+	margin-bottom:2px;
+	padding:10px;
+}
+
+.right_column .contact {
+	background-color: #f6f6f6;
+	margin-top: 2px;
+	padding: 10px 10px 5px 10px;
+	border-bottom: 1px solid #d3d3d3;
+}
+.right_column .contact p {
+	margin: 0;
+}
+.right_column a.submit {
+	margin: 7px 15px 0 0;
+	color: #115680;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	padding-right: 15px;
+	background: url(/_layouts/images/UmSoft.YR/search_marker_1.gif) right center no-repeat;
+}
+.right_column a.submit:hover {
+	text-decoration: none;
+}
+
+.info_text {
+     font-size: 11px;
+	padding: 0 0 0 10px;
+	background: url(/_layouts/images/UmSoft.YR/dot.gif) 2px 8px no-repeat;
+}
+
+.tr-item {
+	background: url(/_layouts/images/UmSoft.YR/tr-bg.gif) left top repeat-x;
+	height: 31px;
+	font-size: 12px;
+}
+.tr-item a {
+	padding-left: 15px;
+	background: url(/_layouts/images/UmSoft.YR/dot.gif) 5px center no-repeat;
+	color: #125685;
+}
+.tr-item a:hover {
+	text-decoration: none;
+}
+.tr-item div {
+	padding: 8px;
+	background: url(/_layouts/images/UmSoft.YR/tr-not-expanded.gif) right center no-repeat;
+}
+
+/* Press Center */
+.news_title {
+   font-size: 14px;	
+   background: url(/_layouts/images/UmSoft.YR/news.gif) left bottom no-repeat;
+   height: 33px;
+   vertical-align: bottom;
+   padding-left: 40px;
+}
+
+.calendar_title {
+   font-size: 14px;	
+   background: url(/_layouts/images/UmSoft.YR/calendar.gif) left bottom no-repeat;
+   height: 33px;
+   vertical-align: bottom;
+   padding-left: 43px;
+}
+
+.press_title {
+   font-size: 14px;	
+   background: url(/_layouts/images/UmSoft.YR/pressrelease.gif) left bottom no-repeat;
+   height: 33px;
+   vertical-align: bottom;
+   padding-left: 43px;
+}
+
+.video_title {
+   font-size: 14px;	
+   background: url(/_layouts/images/UmSoft.YR/video.gif) left bottom no-repeat;
+   height: 33px;
+   vertical-align: bottom;
+   padding-left: 43px;
+}
+
+.contacts_title {
+   font-size: 14px;	
+   background: url(/_layouts/images/UmSoft.YR/contacts.gif) left bottom no-repeat;
+   height: 33px;
+   vertical-align: bottom;
+   padding-left: 43px;
+}
+
+.announcements_more {
+	float: right;
+	margin-top: 2px;
+	width: 119px;
+	height: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 11px;
+	background: url(/_layouts/images/UmSoft.YR/all_events_bg.gif) left top no-repeat;
+}
+
+.announcements_more a {
+	display: block;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 7px;
+	padding-top: 4px;
+}
+
+
+.main {
+    width: 585px;
+    margin-top: 0px;				
+}
+
+.main .email {
+     background: white;
+}
+
+.content_wrapper h3.subtitle {
+     margin: 0 0 10px 0
+}
+

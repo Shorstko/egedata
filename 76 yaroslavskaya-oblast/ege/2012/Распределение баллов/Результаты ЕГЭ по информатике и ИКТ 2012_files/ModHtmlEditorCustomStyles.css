@@ -1,0 +1,94 @@
+﻿.ms-rteCustom-Text
+{
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+    background-image: none;
+    text-align: justify;
+    padding-left: 0;
+}
+
+.ms-rteCustom-Title
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	background-image: url(/_layouts/images/UmSoft.YR/marker_black_2.gif) left center no-repeat;
+	padding-left: 10px;
+	text-align:left;
+}
+.ms-rteCustom-Title2
+{
+	font-weight: bold;
+	font-size: 13px;
+	margin: 10px 0;
+	text-align: left;
+	background-image: none;
+}
+.ms-rteCustom-TableHeader
+{
+	background: white url(/_layouts/images/UmSoft.YR/calendar_adv_bg.gif) 10px center no-repeat;/*#E0E0E0*/
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 10px 0 0px 20px;/*10px 0 10px 20px;*/
+	/*width: 100%;*/
+	text-align: left;
+	display:block;
+	width:97.94% !important;
+}
+
+
+
+
+
+.ms-rteStyle-Text
+{
+	-ms-name:"Text";
+	margin: 0;
+	padding: 0;
+	font-family: tahoma;
+	font-weight: normal;
+	font-size: 11px;
+	color: black;
+    background-image: none;
+    text-align: justify;
+    padding-left: 0;
+}
+
+.ms-rteStyle-Title
+{
+	-ms-name:"Title";
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 14px;
+	color: black;
+	background-image: url(/_layouts/images/UmSoft.YR/marker_black_2.gif) left center no-repeat;
+	padding-left: 10px;
+	text-align:left;
+}
+.ms-rteStyle-Title2
+{
+	-ms-name:"Title2";
+	font-weight: bold;
+	font-size: 13px;
+	margin: 10px 0;
+	text-align: left;
+	background-image: none;
+}
+h3.ms-rteElement-TableHeader
+{
+	-ms-name:"TableHeader";
+	background: #E0E0E0 url(/_layouts/images/UmSoft.YR/calendar_adv_bg.gif) 10px center no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 10px 0;
+	padding: 10px 0 10px 20px;
+	text-align: left;
+}

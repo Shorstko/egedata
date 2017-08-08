@@ -1,0 +1,273 @@
+﻿table {
+	border-collapse: collapse;
+}
+hr{
+	margin-top:0;
+}
+.blackfont a{
+	color:black;
+}
+.blackfont a:visited{
+	color:black;
+}
+
+a:link{	
+	color: black;
+}	
+a:visited{	
+	color:#11567f;
+}	
+a.textlink:visited{	/*was above .ms-rteTable-1*/
+	color: navy;
+}
+
+.ms-WPBody A:link, .ms-WPBody A:visited{	
+	color: #003399;
+}	
+.breadcrumbs A{	
+	text-decoration: underline;
+}	
+	
+.breadcrumbs A:visited{	
+	text-decoration: underline;
+}	
+	
+a.main_search_form_link:link{	
+	color:#115680;
+}	
+	
+.ms-gb{	
+	padding-bottom: 3px;
+}	
+	
+.ms-rteTable-1{	
+	color:black;
+}	
+	
+	
+#menutree li ul li a:visited{	
+	color: white;
+}	
+.menu-gub ul li a:visited{	
+	color:black;
+}	
+	
+.ms-rtestate-field{	
+	word-wrap : normal;
+}	
+	
+div.article{	
+	padding:0px;
+}	
+	
+	
+.article-content{	
+	margin: 0px;
+}	
+	
+.currentWeekLinks a:visited{	
+	color:black;
+}	
+	
+#menutree li {	
+	z-index: 100;
+}	
+	
+.textlink:link {	
+	color: navy;
+}	
+	
+#ctl00_PlaceHolderMain_Caption__ControlWrapper_RichHtmlField p span a:visited {	
+	color: black;
+} 	
+	
+.article-content div font font span font span {	
+	text-transform: none;
+}	
+	
+body.v4master {	
+	overflow: auto;
+	overflow-x: hidden;
+}	
+	
+#ctl00_PlaceHolderMain_ctl01_ctl01__ControlWrapper_RichHtmlField p a:visited{	
+	color: black;
+}	
+	
+.ms-gb a:visited{	
+	color:#003399;
+}	
+
+.article-content{
+	color:black;
+}
+	
+a.press_center_link{
+	color:#115680;
+}
+
+/* Страница результатов поиска /pages/results.aspx */
+.srch-Description2 { max-width: none; }
+.srch-results { max-width: none; }
+.srch-sort-right2 { float: none; }
+
+/* just added by NA*/	
+.ms-vb{
+	color:black;
+}
+
+.article-content{/*справа нет отступа на страницах публикации (/pages/%any.aspx%)*/
+	margin-right:5px;
+}
+
+.content_wrapper .ms-welcomeMenu a:link{
+	color: #ffdb5e;
+}
+.content_wrapper .ms-welcomeMenu a:hover{
+	color: white;
+}
+
+.ms-vb a:link, .ms-vb2 a:link, .ms-vb-user a:link{
+	color: #003399 !important;
+}
+.ms-vb a:visited, .ms-vb2 a:visited, .ms-vb-user a:visited{
+	color: #003399 !important;
+}
+
+#aspnetForm{
+	text-align:left;
+}
+
+.gub-news { 
+	margin-top: 0px !important;
+ }
+ 
+.s4-signInLink{
+	color:#666666 !important;
+}
+
+a.bluefont{
+	color:#003399;
+}
+a.bluefont:visited{
+	color:#003399;
+}
+
+
+.ms-rteTable-1{	
+	line-height:1;
+}	
+	
+#ctl00_m_ControlContainer2_ctl00_lbNews a.textlink:visited{
+	color: #003399;
+}
+
+.regionLink:link, .regionLink:visited{	
+	color:white !important;
+}	
+
+.other_news_item .text a:visited{	
+	color:black;
+}	
+	
+.ms-rteTable-1 tr.ms-rteTableOddRow-1{	
+	background-color:white;/*#F2F3F4;*/
+}	
+.ms-rteTable-1 TD.ms-rteTableOddCol-1 {	
+	BORDER-BOTTOM: #e0e0e0 1px solid; 
+	BORDER-LEFT: #e0e0e0 1px solid; 
+	PADDING-BOTTOM: 10px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #e0e0e0 1px solid; 
+	BORDER-RIGHT: #e0e0e0 1px solid; 
+	PADDING-TOP: 10px;
+	vertical-align:top;
+}	
+.ms-rteTable-1 TD.ms-rteTableEvenCol-1 {	
+	BORDER-BOTTOM: #e0e0e0 1px solid; 
+	BORDER-LEFT: #e0e0e0 1px solid; 
+	PADDING-BOTTOM: 10px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	BORDER-TOP: #e0e0e0 1px solid; 
+	BORDER-RIGHT: #e0e0e0 1px solid; 
+	PADDING-TOP: 10px;
+	vertical-align:top;
+}	
+.ms-vb, .ms-vb2, .ms-vb-user, .ms-vb-tall, .ms-pb, .ms-pb-selected{ 
+	color: black;
+ }
+ 
+.photoimg, .videoimg{
+	height:9px;
+}
+.socialnetworks{
+	height: 60px; 
+	vertical-align: middle;
+}
+
+.minivideo a:link, .minivideo a:visited, .minivideo a:hover{
+	color:#909090;
+}
+.miniphoto a:link, .miniphoto a:visited, .miniphoto a:hover{
+	color:#909090;
+}
+.minivideoa a:link, .minivideoa a:visited, .minivideoa a:hover{
+	color:silver;
+}
+.miniphotoa a:link, .miniphotoa a:visited, .miniphotoa a:hover{
+	color:silver;
+}
+.minispaceaa, .minispaceab{
+	color:silver;
+}
+.minispaceda, .minispacedb{	
+	color:#909090;
+}
+
+span.busy {
+	border-right: 1px #ffffff solid;
+	background-color:#ee0000;
+	color:#ffffff;
+}
+
+a.hasRequests:link, a.hasRequests:visited {
+	border-right: 1px #ffffff solid;
+	background-color:#f4bd00;
+	color:#eeeeee;
+	text-decoration:none;
+}
+
+a.free:link, a.free:visited {
+	border-right: 1px #ffffff solid;
+	background-color:#00aa00;
+	color:#eeeeee;
+	text-decoration:none;
+}
+
+a.hasRequests:hover {
+	border-right: 1px #ffffff solid;
+	background-color:#ffdd00;
+	color:#eeeeee;
+	text-decoration:none;
+}
+
+a.free:hover {
+	border-right: 1px #ffffff solid;
+	background-color:#00cc00;
+	color:#eeeeee;
+	text-decoration:none;
+}
+
+.formTable .CreatedRequestUser .value TEXTAREA,
+.formTable .CreatedRequestOperator .value TEXTAREA,
+.formTable .ApprovedRequestUser .value TEXTAREA,
+.formTable .RejectedRequestUser .value TEXTAREA,
+.formTable .SubscriptionUser .value TEXTAREA,
+.formTable .NotificationUser .value TEXTAREA,
+.formTable .ReceptionTimeChangedUser .value TEXTAREA
+ {
+	width:500px;
+	height: 120px;
+}
